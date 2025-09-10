@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Laba1Oleg"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Laba1Oleg" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
